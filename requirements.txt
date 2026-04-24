@@ -1,0 +1,19 @@
+# Core ML
+torch==2.1.0
+
+# Google Cloud
+google-cloud-aiplatform==1.35.0
+google-cloud-pubsub==2.18.4
+google-cloud-storage==2.13.0
+
+# Apache Beam for Dataflow
+apache-beam[gcp]==2.51.0
+
+# Serving
+fastapi==0.104.1
+uvicorn==0.23.2
+pydantic==2.4.2
+tenacity==8.2.3
+
+# MLOps Pipeline
+kfp==2.3.0
